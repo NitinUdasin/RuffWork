@@ -2,7 +2,7 @@
     "$schema": "http://json.schemastore.org/proxies",
     "proxies": {
         "Root": {
-            "disabled":true,
+            
             "matchCondition": {
                 "route": "/Nitinudasin"
             },
