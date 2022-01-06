@@ -1,12 +1,12 @@
 {
     "$schema": "http://json.schemastore.org/proxies",
     "proxies": {
-        "Root": {
-            
+        "proxy1": {
             "matchCondition": {
-                "route": "/Nitinudasin"
+                "methods": [ "GET" ],
+                "route": "/api/{test}"
             },
-            "backendUri": "https://welcomenuworld.azurewebsites.net/api/Welcome1"
+            "backendUri": "https://welcomenuworld.azurewebsites.net/api/welcomenuworld"
         }
     }
 }
